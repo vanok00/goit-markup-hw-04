@@ -1,11 +1,17 @@
 body {
+  display: flex;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   width: 1440px;
   height: 3300px;
-  align-items: center;
 }
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -26,6 +32,10 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+.bodyguard {
+  display: flex;
 }
 
 img {
@@ -211,7 +221,6 @@ a {
 /* MAIN */
 
 .menu-solutions {
-  background-image: url(//images/people-office\ 1.jpg);
   background-color: #2e2f42;
   padding: 188px 220px;
   display: flex;
