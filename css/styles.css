@@ -275,7 +275,6 @@ a {
 .icons-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-link {
   width: 100%;
@@ -285,14 +284,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icons-list {
   fill: #f4f4fd;
 }
 
-.icons-link :hover,
-:focus {
+.icons-link:focus {
+  background-color: #404bbf;
+}
+.icons-link:hover {
   background-color: #404bbf;
 }
 
