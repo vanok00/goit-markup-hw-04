@@ -50,7 +50,7 @@ ul {
 a {
   text-decoration: none;
 }
-.header {
+.headery {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -221,6 +221,15 @@ a {
 /* MAIN */
 
 .menu-solutions {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpeg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #2e2f42;
   padding: 188px 220px;
   display: flex;
@@ -242,6 +251,7 @@ a {
 }
 
 .solutions-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   min-width: 169px;
   height: 56px;
